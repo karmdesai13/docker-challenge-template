@@ -1,0 +1,56 @@
+Challenge 1 Steps:
+1.First of all forked the repository from the github.
+
+2.Installed Docker on my laptop.
+
+3.Made A accounyt in it.
+
+4.Created the public foder in the challenge1 directory.
+
+5.Created the index.html file
+
+6.Then wrote the html code in the html file.
+
+7.Created the DockerFile.
+
+8.Wrote the code for the Challenge 1 and then tried to make the image with this command docker build -t my-python-app .
+
+9. Then wrote this code to run the application in the conatiner docker run -p 5000:80 my-python-app
+
+10.Went to Docker Desktop and then clicked the link 8080:80 and then went to the static website.
+
+11.Took the ScreenShot
+
+12.Published the changes in the challenge 1 directory to Github.
+
+
+
+Challenge 2 Steps:
+
+1.First of All went to D2l to get the Challenge 2 zip folder and downloaded it.
+
+2.Extracted it and copied the files in the challenge2 directory
+
+3.Created the Dockerfile and wrote the code in it.
+
+4.Then created the docker-compose.yml.
+
+5.Did the code in it , made some mistakes and then fixed it a couple of times.
+
+6.Then created the default.conf file and then wrote the code for it .
+
+7.Then ran this command docker-compose up --build which landed some errors,
+
+8.Then realised and started the docker desktop and ran the command again.
+
+9.Still it was giving errors and tried to figure out the issue.
+
+10.After a long time, fixed the code and then ran this command docker-compose up --build.
+
+11.Then went to browsers and checked the result with url in the challenge.
+
+12.Took the necesssary screenshots.
+
+13.Published the changes on github.
+
+
