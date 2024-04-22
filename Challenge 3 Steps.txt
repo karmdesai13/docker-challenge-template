@@ -1,0 +1,42 @@
+Challenge 3 Steps:
+
+1. First of all dowloaded the zip folder from the d2l
+
+2.Create the .env file and added cariables in it
+
+3.Then created the docker-compose.yml file with al the three services.
+
+4.Then run the command to build it but it come up with all the errors
+
+5. The main error was that it was not able to locate the nginx.
+
+6. So fixed that issue first of all by making changes to it.
+
+7. then at last decided to put all the three files of the zip folder in a folder name docker and then the nginx error was gone
+
+8. then first run the command to compose docker down and then the command to build up again.
+
+9.Now it was not able to find the nodeservices for some reason.
+
+10.Tried fixing that thier was some path errors and some typos resulting in the error.
+
+11.Then tried to run all the conatiiners again and it resulted in a error.
+
+12. Then i found out thier was a hidden character in the api dockerfile which was resulting in a error.
+
+13. Finally run it and it worked.
+
+14.then run this command docker-compose ps 
+
+15.Thhen navigated to the browser to run the url and the results were the same.
+
+Challenge 4 Steps:
+
+1.First of all went to this url and checcked the hostname http://localhost:8080/api/stats
+
+2.Then did some research hoe to scale up the application.
+
+3.Then ran this command to check that if it did work or not docker-compose ps
+
+4. Then again visited to ckeck wheather it works or not.
+
